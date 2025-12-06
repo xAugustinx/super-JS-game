@@ -1,0 +1,30 @@
+
+body {
+    margin: 0; 
+    padding: 0;
+    background-color: pink;
+  }
+  html { height: 100%; }
+  body { min-height: 100%;   }
+
+#playerTexture
+{
+    width: 10%;
+    height: auto;
+    
+    position: absolute;
+
+    top: 30%;
+    right: 50%;
+}
+#enemyTexture
+{
+    width: 5%;
+    height: auto;
+    
+    position: absolute;
+
+    top: 5%;
+    right: 40%;
+}
+
