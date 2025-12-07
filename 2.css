@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkmagenta;
+}
+html {height: 100%}
+body {min-height: 100%; }
+
+.superKlasa {
+    border: 3px solid red;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#mangoGif {
+    position: absolute;
+    z-index: 10;
+}
+#calosLicznika
+{
+    position:absolute;
+    z-index: 10;
+    right: 0;
+    color: pink;
+}
+
+#licznik {
+    z-index: 10;
+}
