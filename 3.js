@@ -23,7 +23,7 @@ function nowyObiekt()
 
     document.body.appendChild(nE);
 
-    jakDuzoMango = jakDuzoMango - 4;
+    jakDuzoMango = jakDuzoMango - 2;
 
     iloscMango++;
 
