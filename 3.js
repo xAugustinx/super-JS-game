@@ -37,6 +37,13 @@ document.addEventListener('keydown', function(event) {
     mangoInterval = setInterval(nowyObiekt, jakDuzoMango);
 });
 
+document.getElementById('przycisk').addEventListener('click', function() {
+    jakDuzoMango = jakDuzoMango - 10;
+    clearInterval(mangoInterval); 
+    mangoInterval = setInterval(nowyObiekt, jakDuzoMango);
+});
+
+
 const mangoInterval = setInterval(function() {
     nowyObiekt();
 },jakDuzoMango );
