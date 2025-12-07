@@ -27,3 +27,12 @@ body {min-height: 100%; }
 #licznik {
     z-index: 10;
 }
+#przycisk
+{
+    position:absolute;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    color: pink;
+}
+    
